@@ -94,9 +94,9 @@ __metadata:
   linkType: hard
 
 "caniuse-lite@npm:^1.0.30001406":
-  version: 1.0.30001527
-  resolution: "caniuse-lite@npm:1.0.30001527"
-  checksum: 7ad99d78d1a30d494471c8a9ead3fc40a816ee61b16fef330bba5bdae5d7ebaa965becc8cd09c7aa6240125ce790a5213a40cd240ceaa211508744ed86b79783
+  version: 1.0.30001532
+  resolution: "caniuse-lite@npm:1.0.30001532"
+  checksum: 613abeb15e03dde307d543195a7860f7ba7450c9c9262d45642b2c8fbe097914fa060d68c8647f9d443947b1f62b09d891858bde7d2cac94fae8133a0b518b28
   languageName: node
   linkType: hard
 
@@ -147,17 +147,6 @@ __metadata:
   checksum: 7d0eda657002738aa5206107bd0580aead6c95c460ef1bdd0b1a87a9c7ae6277ac2e9b945306aaa5b32c6dcb7feaf462d0f552e7f8b5718abfc6ead5c94a71b3
   languageName: node
   linkType: hard
-
-"next-event@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "next-event@workspace:."
-  dependencies:
-    next: ^13.0.7
-    react: ^18.2.0
-    react-dom: ^18.2.0
-    swr: ^2.2.1
-  languageName: unknown
-  linkType: soft
 
 "next@npm:^13.0.7":
   version: 13.4.19
@@ -214,6 +203,17 @@ __metadata:
   checksum: f4873dab8888ed4dae14d36d7cf8dc54cd042695cf7ee41d05e8757f463d11952a594eb066143cc2f7253ea1d41c6efe681cdc3ab8c2fa6eb0815fa5a94de3dc
   languageName: node
   linkType: hard
+
+"nextjs-course@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "nextjs-course@workspace:."
+  dependencies:
+    next: ^13.0.7
+    react: ^18.2.0
+    react-dom: ^18.2.0
+    swr: ^2.0.0
+  languageName: unknown
+  linkType: soft
 
 "picocolors@npm:^1.0.0":
   version: 1.0.0
@@ -293,7 +293,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"swr@npm:^2.2.1":
+"swr@npm:^2.0.0":
   version: 2.2.2
   resolution: "swr@npm:2.2.2"
   dependencies:
